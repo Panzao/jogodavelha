@@ -1,0 +1,44 @@
+main {
+	text-align-last: center;
+	text-shadow: 2px 2px 5px #17bcea;
+}
+
+canvas {
+	border: 10px solid black;
+}
+
+h1 {
+	text-shadow: 2px 2px 5px #17bcea;
+	text-align: center;
+}
+
+
+.button {
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;	
+	text-decoration: none;
+	outline: none;
+	color: #000;
+	background-color: #fff;
+	border: 2px solid black;
+	border-radius: 15px;
+	box-shadow: 0 9px #000;
+}
+
+.button:active {
+	background-color: #fff;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+.div_centro {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.resposta {
+	box-shadow: 0 9px #000;
+}
